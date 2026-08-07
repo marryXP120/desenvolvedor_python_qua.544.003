@@ -1,0 +1,15 @@
+import os
+
+# criar a lista
+usuarios = [
+
+    # limpa a tela
+    os.system("cls if os.name == "nt else "clear")
+
+    while true:
+    #menu
+    print(f"{'-'*20} CRUDicionario {'-'*20}")
+    print("1 . Cadastrar novo usuário")
+    print()
+
+]
