@@ -9,6 +9,9 @@
 import json
 import os
 
+os.system("cls" if os.name == "nt" else "clear")
+
+
 arquivo = "alunos.json"
 
 # Verifica se o arquivo JSON já existe
@@ -20,7 +23,7 @@ else:
 
 while True:
     print("\n===== CADASTRO DE ALUNO =====")
-
+            
     nome = input("Digite o nome do aluno: ")
 
     nota1 = float(input("Digite a primeira nota: "))
