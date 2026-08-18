@@ -4,8 +4,8 @@ import math
 def limpar():
     os.system("cls" if os.name == "nt" else "clear")
 
-def potencia(numero, expoente):    
-    return numero ** expoente 
+def potencia(base, expoente):    
+    return base ** expoente 
        
 def raiz_quadrada(numero):
     if numero < 0:

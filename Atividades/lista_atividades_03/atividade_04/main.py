@@ -25,18 +25,29 @@ def main():
         opcao = input("escolha uma opção: ").strip()
 
         if opcao == "1":
-            base = float(input)
-            m.potencia()
+            base = float(input("Informe o valor da base: "))
+            expoente = float(input("Informe o valor do expoente: "))
+            resultado = m.potencia(base, expoente)
+            print(f"Resultado: {base}^{expoente} = {resultado} ")
 
         elif opcao == "2":
-            m.raiz_quadrada()
-
+           numero = float(input("Informe um numero: "))
+           resultado = m.raiz_quadrada(numero)
+           print(f"raiz quadrada de: {numero} = {resultado} ")
+            
         elif opcao == "3":
-            m.calcula_volume_paralelepipedo()
+           c = float(input("Informe o valor do comprimento: "))
+           l = float(input("Informe o valor do largura: "))
+           a = float(input("Informe o valor do altura: "))
+           resultado = m.calcula_volume_paralelepipedo(c,l,a)
+           print(f"O volume é: {resultado} ")
 
         elif opcao == "4":
-            m.calcula_volume_cilindro()
-
+           r = float(input("Informe o valor do raio da base: "))
+           a = float(input("Informe o valor do altura: "))
+           resultado = m.calcula_volume_cilindro(r,a)
+           print(f"O volume é: {resultado} ")
+ 
         elif opcao == "0":
             print("saindo do programa...")
             break
