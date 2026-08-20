@@ -17,4 +17,7 @@ else:
     print(f"Sequência de fibonacci até o termo {num}: ")
     sequencia = [str(fibonacci(i)) for i in range(num + 1)]
     print(",".join(sequencia))
+    
+
+
  
