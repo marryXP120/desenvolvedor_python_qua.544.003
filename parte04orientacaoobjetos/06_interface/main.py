@@ -2,7 +2,7 @@ import os
 import datetime
 from datetime import date
 
-from models import conta
+from models import Conta
 
 
 def limpar():
@@ -17,7 +17,7 @@ def limpar():
     def main():
         cc = conta(titular="",cpf="",agencia="1234-5",n_conta="10123"saldo=0.0)
         
-       limpar()
+    limpar()
        
        cc.titular = input("Informe o nome do titular da conta: ").strip()
     
