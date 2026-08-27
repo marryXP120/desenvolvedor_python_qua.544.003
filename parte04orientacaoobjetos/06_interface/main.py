@@ -15,11 +15,12 @@ def limpar():
         return datetime.datetime.now().striftime("%H:%M:%S")
     
     def main():
-        cc = conta(titular="",cpf="",agencia="1234-5",n_conta="10123"saldo=0.0)
+        cc = Conta(titular="",cpf="",agencia="1234-5",n_conta="10123",saldo=0.0)
         
-    limpar()
+        limpar()
        
-       cc.titular = input("Informe o nome do titular da conta: ").strip()
+        cc.titular = input("Informe o nome do titular da conta: ").strip().title()
+        cc.cpf     
     
     
     limpar()
