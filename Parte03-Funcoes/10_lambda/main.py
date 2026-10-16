@@ -6,5 +6,4 @@ def main():
     print(f"O valor da soma é {somar(x,y)}")
 
 if __name__ == "__main__":
-    main()  
-
+    main()

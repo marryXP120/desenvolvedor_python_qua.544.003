@@ -6,12 +6,12 @@ def hoje():
     return date.today().strftime("%d/%m/%Y")
 
 def main():
-    auto.PAUSE = 0.75
+    auto.PAUSE = 1
 
     auto.press("win")
     auto.write("cmd")
     auto.press("enter")
-    auto.write("cd C:\\Users\\ALUNO\\MARIAMILANEZ\\desenvolvedor_python_qua.544.003")
+    auto.write("cd Alex Machado/Workspaces/Python/desenvolvedor_python_qua.544.003")
     auto.press("enter")
     auto.write("git add .")
     auto.press("enter")

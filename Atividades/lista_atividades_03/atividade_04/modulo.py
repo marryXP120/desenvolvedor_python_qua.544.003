@@ -1,23 +1,17 @@
-import os
 import math
+import os
 
 def limpar():
     os.system("cls" if os.name == "nt" else "clear")
 
-def potencia(base, expoente):    
-    return base ** expoente 
-       
-def raiz_quadrada(numero):
-    if numero < 0:
-        return None
-    return math.sqrt(numero)
+def potencia(x, y):
+    return x**y
 
-def calcula_volume_paralelepipedo(c, l, a):
-    return c*l*a
+def raiz(x):
+    return math.sqrt(x)
 
-def calcula_volume_cilindro(r, a):
-    return math.pi * (r**2) * a
-    
+def volume_cubico(b, l, h):
+    return b*l*h
 
-
-
+def volume_cilindro(r, h):
+    return math.pi*r*h

@@ -3,8 +3,8 @@ import modulo
 
 modulo.limpar()
 
-a = float(input("informe o valor de 'a': ").replace(",","."))
-b = float(input("informe o valor de 'b': ").replace(",","."))
+a = float(input("Informe o valor de 'a': ").replace(",","."))
+b = float(input("Informe o valor de 'b': ").replace(",","."))
 
 x = modulo.equacao_primeiro_grau(a, b)
 

@@ -6,7 +6,7 @@ def ir_pesquisa():
     auto.press("tab")
     auto.press("tab")
     auto.press("tab")
-    
+
 def main():
     auto.PAUSE = 0.75
     auto.press("win")
@@ -23,8 +23,6 @@ def main():
     auto.hotkey("ctrl","t")
     auto.write("python.org")
     auto.press("enter")
-    
-    
 
 
 if __name__ == "__main__":

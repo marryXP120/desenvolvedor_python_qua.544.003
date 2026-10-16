@@ -6,15 +6,16 @@ import os
 
 def limpar():
     os.system("cls" if os.name == "nt" else "clear")
-    
+
 def gerar_piada():
     tradutor = GoogleTranslator(source="auto", target="pt")
     piada = pyjokes.get_joke()
     return tradutor.translate(piada)
 
 def main():
+    limpar()
     while True:
-        print("0 - sair do programa")
+        print("0 - Sair do programa")
         print("1 - Gerar nova piada")
         opcao = input("Informe a opção desejada: ").strip()
         limpar()
